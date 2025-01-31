@@ -112,7 +112,6 @@ https://docs.livekit.io/agents/overview/
 https://docs.livekit.io/agents/quickstarts/voice-agent/
 
 https://github.com/livekit/agents/tree/main/examples/voice-pipeline-agent/llamaindex-rag
-https://github.com/lexiconlabsai/rag-saas
 
 https://www.datavise.ai/blog/usage-of-realtime-openai-api-with-twillio-and-livekit
 https://gist.github.com/ShayneP/51eabe243f9e7126929ea7e9db1dc683
