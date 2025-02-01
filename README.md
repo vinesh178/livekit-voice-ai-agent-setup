@@ -119,5 +119,4 @@ https://gist.github.com/ShayneP/51eabe243f9e7126929ea7e9db1dc683
 # Author
 
 [Discord](https://discord.gg/TawJX4ue)
-[Telegram](https://t.me/bigdata5911)
 [Email](mailto:worker.opentext@gmail.com)
