@@ -111,6 +111,10 @@ lk sip inbound delete SIP_ID
 https://docs.livekit.io/agents/overview/
 https://docs.livekit.io/agents/quickstarts/voice-agent/
 
+https://agents-playground.livekit.io/
+https://kitt.livekit.io/
+https://cartesia-assistant.vercel.app/
+
 https://github.com/livekit/agents/tree/main/examples/voice-pipeline-agent/llamaindex-rag
 
 https://www.datavise.ai/blog/usage-of-realtime-openai-api-with-twillio-and-livekit
