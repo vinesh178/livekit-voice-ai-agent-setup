@@ -1,29 +1,29 @@
 ![Livekit-Voice-AI-Agent-Workflow](images/livekit-voice-ai-agent-workflow.png)
 
-# How to Build Your Own AI-Powered Voice Agent with LiveKit and Twillio: Step-by-Step Implementation Guide
+# How to Build Your Own AI-Powered Voice Agent with LiveKit and Twilio: Step-by-Step Implementation Guide
 
 ## Step 1: Create a Twilio Account
 
-Start by signing up for a Twilio account if you haven’t already. Simply visit [Twilio’s website](https://www.twilio.com/) and follow the registration process to set up your account.
+Start by signing up for a Twilio account if you haven't already. Simply visit [Twilio's website](https://www.twilio.com/) and follow the registration process to set up your account.
 
 ## Step 2: Create a Phone Number
 
-Once your account is ready, navigate to the Twilio Console and create a phone number. You don’t need to configure any additional settings at this stage—just select a number and you’re good to go. This number will be used to handle incoming and outgoing calls in the later steps.
+Once your account is ready, navigate to the Twilio Console and create a phone number. You don't need to configure any additional settings at this stage—just select a number and you're good to go. This number will be used to handle incoming and outgoing calls in the later steps.
 
 ## Step 3: Get Your API Credentials from Twilio
 
-Next, you’ll need your Twilio API credentials to integrate with LiveKit. These include your Account SID and Auth Token. Follow these steps:
+Next, you'll need your Twilio API credentials to integrate with LiveKit. These include your Account SID and Auth Token. Follow these steps:
 
 1. Go to the Twilio Console.
 2. Navigate to the Account Info section.
-3. Copy your Account SID and Auth Token, and Twillio phone number —you’ll use these in the next steps.
+3. Copy your Account SID and Auth Token, and Twilio phone number —you'll use these in the next steps.
    ![Twilio-API-Credentials](images/twilio-api-credentials.png)
 
 ## Step 4: Create a LiveKit Account and Project
 
 1. Create a LiveKit Account
 
-Sign up for a LiveKit account if you don’t have one already by visiting LiveKit’s website.
+Sign up for a LiveKit account if you don't have one already by visiting LiveKit's website.
 
 2. Create a Project
 
@@ -39,7 +39,7 @@ Navigate to the Settings section of your newly created project and locate the Pr
 
 To streamline the configuration process for Twilio and LiveKit, use the pre-built script available at the following URL: Twilio & LiveKit Integration Script(scripts/create_inbound_trunk.py).
 
-Here’s what you need to do:
+Here's what you need to do:
 
 1. Download or clone the script from the link above.
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 4. Install the LiveKit SDK
 
-If you’re using macOS, you can install the LiveKit CLI via Homebrew:
+If you're using macOS, you can install the LiveKit CLI via Homebrew:
 
 ```bash
 brew install livekit-cli # MacOS
@@ -82,7 +82,7 @@ This script will handle most of the heavy lifting, simplifying the integration b
 
 ## Step 6: Log in to Twilio and Update Voice Configuration on SIP Trunk
 
-After the script has automatically created the SIP Trunk on Twilio, you’ll need to manually update the Voice Configuration to ensure everything works correctly.
+After the script has automatically created the SIP Trunk on Twilio, you'll need to manually update the Voice Configuration to ensure everything works correctly.
 
 # Run Voice Agent
 
